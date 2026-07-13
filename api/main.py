@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import pandas as pd
-import numpy as np
+
 
 app = FastAPI(title='Customer Churn Predictor')
 
@@ -33,7 +33,6 @@ class CustomerData(BaseModel):
     PaymentMethod: str
     MonthlyCharges: float
     TotalCharges: float
-
 
 @app.get('/health')
 def health():

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Data
+data/
+
+# VS Code
+.vscode/
+
+# Model files
+models/*.pkl

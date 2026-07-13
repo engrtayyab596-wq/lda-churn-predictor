@@ -2,7 +2,7 @@
 
 A production-grade machine learning system that predicts customer churn
 using Linear Discriminant Analysis (LDA) and Logistic Regression,
-served via a REST API with optimal threshold tuning.
+served via a Fast API with optimal threshold tuning.
 
 ---
 
@@ -120,7 +120,7 @@ identified — improving F1 from baseline to 0.6436 and recall to 72.39%.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lda-churn-predictor.git
+git clone https://github.com/engrtayyab596-wq/lda-churn-predictor.git
 cd lda-churn-predictor
 ```
 

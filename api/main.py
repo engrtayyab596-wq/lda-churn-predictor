@@ -13,6 +13,7 @@ feature_columns = joblib.load('models/feature_columns.pkl')
 # optimal threshold from notebook
 THRESHOLD = 0.5089
 
+
 class CustomerData(BaseModel):
     gender: str
     SeniorCitizen: int
@@ -33,6 +34,7 @@ class CustomerData(BaseModel):
     PaymentMethod: str
     MonthlyCharges: float
     TotalCharges: float
+
 
 @app.get('/health')
 def health():
